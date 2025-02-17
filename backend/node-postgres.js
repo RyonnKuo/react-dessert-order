@@ -11,11 +11,11 @@ app.use(express.json());
 
 // PostgreSQL 連接池設定
 const pool = new Pool({
-    user: 'postgres',          // 你的 PostgreSQL 帳號
-    host: 'localhost',         // 資料庫主機
-    database: 'dessert_shop',  // 資料庫名稱
-    password: 'password',      // 你的密碼
-    port: 5432,                // PostgreSQL 預設埠號
+    user: 'xxxx',          // 你的 PostgreSQL 帳號
+    host: 'xxxx',         // 資料庫主機
+    database: 'xxxx',  // 資料庫名稱
+    password: 'xxxx',      // 你的密碼
+    port: xxxx,                // PostgreSQL 預設埠號
 });
 
 // API: 獲取購物車內容
